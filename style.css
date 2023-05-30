@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* genercis */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.txt-white {
+    color: white;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.black-border {
+    border: 1px dashed black;
+}
+
+li {
+    list-style-type:
+        none;
+}
+
+.bg-grey {
+    background-color: lightgrey;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    border: none;
+
+}
+
+.header-buttons button {
+    margin: 20px 5px;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+}
+
+.dark-btn {
+    background-color: #23272A;
+    color: white;
+}
+
+/* header */
+
+header {
+    min-height: 80px;
+    background-color: #255EE9;
+    padding: 20px 0;
+
+}
+
+
+
+.center-nav {
+    flex-grow: 1;
+    min-height: 40px;
+    padding: 8px 0;
+}
+
+.left-nav {
+    width: 200px;
+    min-height: 40px;
+    align-items: center;
+
+}
+
+.right-nav {
+    width: 200px;
+    min-height: 40px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-link {
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+/* buttons-section */
+
+.buttons-section {
+    min-height: 400px;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.header-buttons h1 {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.header-buttons p {
+    color: white;
+    margin-top: 20px;
+}
+
+.header-buttons {
+    padding-top: 50px;
+    min-height: 340px;
+    width: 700px;
+    text-align: center;
+}
+
+
+/* first-section */
+
+.inside-section {
+    min-height: 400px;
+    padding: 50px 0;
+}
+
+.image-left {
+    height: 400px;
+    width: 60%;
+    background-color: lightblue;
+}
+
+.text-right {
+    height: 400px;
+    width: 40%;
+    background-color: pink;
+}
+
+/* fourth-section */
+
+.fourth-section {
+    min-height: 700px;
+    padding: 50px 0;
+
+}
+
+.main-box {
+    height: 700px;
+    background-color: green;
+}
+
+/* footer */
+footer {
+    background-color: #23272A;
+}
+
+.footer-nav {
+    min-height: 600px;
+    padding: 50px 0;
+
+}
+
+.footer-nav div {
+    min-height: 300px;
+
+}
+
+.left-col {
+    background-color: pink;
+    width: 40%;
+}
+
+.right-col {
+    background-color: #4BB2AA;
+    width: 15%;
+}
+
+/* footer buttons */
+
+.footer-buttons {
+    min-height: 50px;
+    border-top: 1px solid white;
+    padding: 20px 0;
+
+}
+
+.footer-cont {
+    min-height: 50px;
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+}
