@@ -29,7 +29,7 @@ li {
 }
 
 .bg-grey {
-    background-color: lightgrey;
+    background-color: #F6F6F6;
 }
 
 .bg-pink {
@@ -57,6 +57,38 @@ a {
 .dark-btn {
     background-color: #23272A;
     color: white;
+}
+
+.purple-btn {
+    background-color: #7288DA;
+}
+
+.txt-left {
+    text-align: left;
+}
+
+.txt1-8rem {
+    font-size: 1.8rem;
+}
+
+.txt-8rem {
+    font-size: 0.8rem;
+}
+
+.margintop20 {
+    margin-top: 20px;
+}
+
+.black-border {
+    border: 1px dashed black;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+p {
+    line-height: 20px;
 }
 
 /* header */
@@ -130,13 +162,29 @@ header {
 .image-left {
     height: 400px;
     width: 60%;
-    background-color: lightblue;
+}
+
+.padding-txtr {
+    padding-right: 150px;
+    padding-top: 20px;
 }
 
 .text-right {
     height: 400px;
     width: 40%;
-    background-color: pink;
+
+}
+
+.col-image {
+    height: 350px;
+}
+
+/* second-section */
+
+
+.padding-txtl {
+    padding-left: 150px;
+    padding-top: 20px;
 }
 
 /* fourth-section */
@@ -148,9 +196,33 @@ header {
 }
 
 .main-box {
-    height: 700px;
-    background-color: green;
+    min-height: 850px;
+    padding: 50px;
+    text-align: center;
 }
+
+.main-box h2,
+p {
+    text-align: center;
+}
+
+.question {
+    justify-content: center;
+}
+
+.adventure-section {
+    max-width: 350px;
+    padding: 20px 20px;
+    background-image: url(img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+
+}
+
+
+
+
 
 /* footer */
 footer {
