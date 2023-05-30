@@ -293,3 +293,18 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
+/* bonus */
+
+.wave {
+    width: 100%;
+    color: #F6F6F6;
+}
+
+.wavediv svg {
+    margin: -5px;
+}
+
+.wave-rotate {
+    transform: rotate(180deg);
+}
